@@ -1,0 +1,285 @@
+.back1
+{
+background-color: black;
+color: ghostwhite;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.grid-container1
+{
+display: grid;
+grid-template-columns: auto auto;
+margin-top: 20px; 
+padding-left: 100px;
+padding-right: 100px;  
+}
+.s1
+{
+color: #FE004F;
+}
+.grid-items1
+{
+font-size: 50px;  
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-items2
+{
+display: grid;  
+grid-template-columns: auto auto auto auto auto;
+margin-left: 300px;
+}
+.grid-items2>div
+{
+padding-top: 30px;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left:30px;
+}
+.grid-items2>div>a
+{
+text-decoration: none;
+color: ghostwhite;
+padding-top: 10px;
+}
+.label1
+{
+font-size:30px;
+margin-top: 250px;
+   padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+.s2{
+color: #FE004F;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dfbg
+{
+background-color: rgb(20, 20, 20);
+margin-top: 200px;   
+}
+.grid-container2
+{
+display: grid;
+grid-template-columns: auto auto;
+padding-top: 100px;
+color: #ABAB9C;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-items3
+{
+margin-left: 100px;
+
+}
+.grid-items4
+{
+margin-right:80px;
+margin-left: 100px;
+margin-top: 0px;
+
+}
+.abt1
+{
+font-size: 50px;
+margin-top: 0px;
+margin-left: 10px;
+color: ghostwhite;
+}
+.abt2
+{
+
+font-size: 15px;
+margin-top: 0;
+margin-left: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #ABAB9C;
+}
+.ig1
+{
+height: 400px;
+width: 300px;
+border-radius:30px;
+}
+
+.myservices
+{
+padding-left: 100px;
+margin-top: 200px;
+
+}
+.my1
+{
+   font-size: 50px;
+
+}
+.grid-container3
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding-right:100px ;
+   
+}
+.card1
+{
+   background-color:rgb(40, 40, 40); 
+   width:350px;
+   height:180px;
+   border-radius: 20px;
+   padding-top: 40px;
+   padding-left: 40px;
+   margin-right:20px;
+   transition: background-color 0.5s, transform 0.5s;
+}
+.card1:hover 
+{
+   background-color: #FE004F;
+   transform: translateY(-10px);
+}
+.card1 > p
+{
+   font-size:10px;
+}
+.card1 >a
+{
+   text-decoration: none;
+   color: white;
+}
+.portfolio
+{
+   padding-left: 100px;
+   margin-top: 200px;
+  
+}
+.work1
+{
+   font-size: 60px;
+   
+}
+.grid-container4 
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+.p1
+{
+   width: 330px;
+   height: 500px;
+   border-radius: 10px;
+   
+}
+.see
+{
+   text-align: center;
+   margin-top: 60px;
+   font-size: 20px;
+   width: 150px;
+   height: 38px;
+   border: 1px solid #FE004F;
+   margin-left: 500px;
+   margin-right: 500px;
+   border-radius: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.see:hover
+{
+   background-color: #FE004F;
+}
+.contact
+{
+    padding-left:100px;
+    margin-top:200px;
+}
+.c1
+{
+ font-size:50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container5
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:60px;
+}
+.grid-items11>.c2,.c3
+{
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-items11>button>a
+{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.grid-items11>button
+{
+    font-size:15px;
+    background-color: #fe004f;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top:50px;
+}
+.grid-items12
+{
+    margin-top:25px;
+    
+}
+input
+{
+    width:650px;
+    height: 50px;
+    background-color:#262626;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding-left: 15px;
+   
+  
+}
+.grid-items12>div
+{
+    margin-bottom:20px;
+    
+}
+textarea
+{
+    background-color: #262626;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding-left: 15px;
+    width:650px;
+    height:180px;
+
+}
+.grid-items12>button
+{
+    font-size:15px;
+    background-color: #fe004f;
+    border-radius: 10px;
+    border: none;
+    width:150px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top:10px; 
+    color: ghostwhite;
+    margin-bottom: 80px;
+}
+.foot1
+{
+    background-color: #262626;
+    text-align: center;
+    height:60px;
+    padding-top:20px;
+    font-size: 15px;
+}
+.f1
+{
+    color: #fe004f;
+}
